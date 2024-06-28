@@ -1,0 +1,30 @@
+.main_message_box_container{
+    background-color: #D8EFD3;
+    border-radius: 15px;
+    /* border: 2px solid #55AD9B; */
+}
+.main_message_box_container .welcome_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* font-weight: bold; */
+}
+.selected_profile_box{
+  border-radius: 10px;
+    /* border: 2px solid #55AD9B; */
+
+}
+.selected_profile_name{
+    margin: 5px auto;
+      color: #0C1844;
+      font-size: 18px;
+    /* padding: 5px; */
+}
+
+.selected_profile_container{
+    border-radius: 10px;
+    background-color: #95D2B3;
+    /* background-color: #FEFAF6; */
+    border: 2px solid #55AD9B;
+}

@@ -1,0 +1,22 @@
+/* Ocean scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0f7fa;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #0072ff, #00c6ff);
+}
+
+/* .demoHover:hover{
+    background: black !important;
+    color: white !important;
+} */

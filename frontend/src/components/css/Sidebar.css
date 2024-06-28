@@ -1,0 +1,38 @@
+.main_sidebar_container{
+    /* background-color: #95D2B3; */
+      background-color: #D8EFD3;
+    border-radius: 15px;
+    border: 2px solid #55AD9B;
+}
+
+.user_profile_box{
+    background-color: #95D2B3;
+    border-radius: 15px;
+    border: 2px solid #55AD9B;
+    margin-top: 8px;
+}
+
+/* .user_profile_box{
+    border: 2px solid #55AD9B;
+    border-radius: 10px;
+    background-color: #D8EFD3;
+} */
+
+.users_logo{
+    border: 1px solid black;
+}
+.users_name{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-weight:500;
+    font-size: 17px;
+}
+
+.logout_container{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
