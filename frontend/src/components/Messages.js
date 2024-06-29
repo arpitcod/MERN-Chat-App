@@ -22,16 +22,19 @@ const Messages = () => {
   }, [mUser]);
 
   
+ // Filter messages for the authenticated user
+//  const filteredMessages = mUser?.filter(message => message?.receiverId === aUser?._id || message?.senderId === aUser?._id);
 
   console.log("message user ", mUser);
   console.log("auth user", aUser);
 
   if (!mUser || mUser.length === 0) return <p className="text-center d-flex justify-content-center align-items-center" style={{ height: "73%" }}>No messages</p>;
-
+  // if (!filteredMessages || filteredMessages?.length === 0) return <p className="text-center d-flex justify-content-center align-items-center" style={{ height: "73%" }}>No messages</p>;
   return (
     <div className="messages_box container d-flex flex-column my-2 overflow-auto border border-1 border-success" style={{ height: "73%" }}>
       
-      {mUser?.map((message) => (
+      
+      {mUser&&mUser?.map((message) => (
         <div key={message?._id} >
           <span
             className={`col badge text-bg-secondary my-1 p-2 fs-6 ${aUser?._id === message?.senderId ? 'float-end' : 'float-start'}`}

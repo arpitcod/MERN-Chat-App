@@ -17,7 +17,7 @@ const Users = ({fUsers}) => {
   if (!Array.isArray(oUser) || oUser.length === 0) {
     return <p className="text-center">User not found</p>;
   }
-  if (fUsers.length === 0) {
+  if (fUsers?.length === 0) {
     return <p className="text-center">user not found</p>
  }
   const selectedUserHandle = (user) => {
